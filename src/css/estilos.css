@@ -91,6 +91,11 @@ body{
     border-radius: 40px;
 }
 
+h2{
+    color: white;
+    text-align: center;
+}
+
 /* main o precios */
 
 .precios {
@@ -105,11 +110,18 @@ body{
 
 .card {
     opacity: 100%;
+    background-color: #e7f3eb00;
+    
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
 }
 
 .card-body {
-    color: rgb(89, 35, 107);
-    background-color: #644983a2;
+    color: white;
+    background-color: #9a9ab1a2;
     font-weight: 600;
     text-align: center;
     box-sizing: border-box;
@@ -119,10 +131,9 @@ body{
     margin: 10px;
 }
 
-.btn {
-    display: flex;
-    text-align: center;
-    align-items: center;
+.card-body b{
+    color: white;
+    font-size: 20px;
 }
 
 button {
@@ -148,6 +159,8 @@ button {
     white-space: nowrap;
     cursor: pointer;
     transition: all .3s;
+    text-align: center;
+    align-items: center;
 }
 
 button:active,
